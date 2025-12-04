@@ -1,0 +1,29 @@
+========= Server Health Report (2025-12-04 04:47:54) =========
+
+[CPU LOAD]
+ 04:47:54 up 5 min,  1 user,  load average: 0.00, 0.02, 0.00
+
+[MEMORY USAGE]
+               total        used        free      shared  buff/cache   available
+Mem:           914Mi       347Mi       366Mi       2.7Mi       358Mi       567Mi
+Swap:             0B          0B          0B
+
+[DISK USAGE]
+Filesystem       Size  Used Avail Use% Mounted on
+/dev/root        6.8G  1.8G  5.0G  27% /
+tmpfs            458M     0  458M   0% /dev/shm
+tmpfs            183M  880K  182M   1% /run
+tmpfs            5.0M     0  5.0M   0% /run/lock
+efivarfs         128K  3.6K  120K   3% /sys/firmware/efi/efivars
+/dev/nvme0n1p16  881M   89M  730M  11% /boot
+/dev/nvme0n1p15  105M  6.2M   99M   6% /boot/efi
+tmpfs             92M   12K   92M   1% /run/user/1000
+
+[TOP 5 PROCESSES]
+    PID    PPID CMD                         %MEM %CPU
+    613       1 /usr/lib/snapd/snapd         3.9  0.1
+    188       1 /sbin/multipathd -d -s       2.8  0.0
+    711       1 /usr/bin/python3 /usr/share  2.4  0.0
+    606       1 /usr/bin/python3 /usr/bin/n  2.1  0.0
+    970       1 /snap/amazon-ssm-agent/1179  2.1  0.2
+
